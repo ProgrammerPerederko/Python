@@ -37,7 +37,7 @@ Boas práticas:
 
 # String (str) - Sequencia de caracteres que ocupam um espaço na memoria.
 string = "Daniel"
-print(type(string))
+
 # Inteiros (int) - Números inteiros, sem a parte decimal.
 inteiro = 25
 
@@ -65,3 +65,14 @@ boolean = True
 
 # NoneType (None) - um tipo especial que representa a ausencia de valor.
 nenhum = None
+
+print(f"Valor: {string} | Tipo: {type(string).__name__}")
+print(f"Valor: {inteiro} | Tipo: {type(inteiro).__name__}")
+print(f"Valor: {flutuante} | Tipo: {type(flutuante).__name__}")
+print(f"Valor: {numeros_complexos} | Tipo: {type(numeros_complexos).__name__}")
+print(f"Valor: {lista} | Tipo: {type(lista).__name__}")
+print(f"Valor: {tuplas} | Tipo: {type(tuplas).__name__}")
+print(f"Valor: {conjunto} | Tipo: {type(conjunto).__name__}")
+print(f"Valor: {dicionario} | Tipo: {type(dicionario).__name__}")
+print(f"Valor: {boolean} | Tipo: {type(boolean).__name__}")
+print(f"Valor: {nenhum} | Tipo: {type(nenhum).__name__}")
