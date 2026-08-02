@@ -27,3 +27,6 @@ tabuada_exercicio = int(input("\nInsira o número da tabuada que quer ver: "))
 
 for i in range(1, 11):
     print(f"{tabuada_exercicio} x {i} = {tabuada_exercicio * i}")
+
+
+    nora = 1
