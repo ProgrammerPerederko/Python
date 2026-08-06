@@ -12,3 +12,13 @@ print(random.random())
 
 print(random.randint(10, 20))
 
+# Escolher aleatoriamente um elemento de uma lista:
+
+celular = [ "iphone","android","motorola"]
+print(random.choice(celular))
+
+# Embaralhar aleatoriamente uma lista:
+numbers = [1,2,3,4,5]
+random.shuffle(numbers)
+print(numbers)
+
