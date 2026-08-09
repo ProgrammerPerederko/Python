@@ -164,3 +164,17 @@ print(lista)
 print(lista[0].strip())
 print(lista[1].strip())
 print(lista[2].strip())
+
+
+# Teste Utilizando Formated Strings
+
+# Utilizando Formatted Strings
+nome = "Daniel"
+idade = 19      
+altura = 1.72
+
+# Criando uma mensagem formatada usando f-string 
+# toda vez que o f"" e usado podemos usar variaveis no meio do texto
+mensagem = f"Olá, meu nome é {nome}, Tenho {idade} anos e tenho {altura} de altura."
+print(mensagem)
+
