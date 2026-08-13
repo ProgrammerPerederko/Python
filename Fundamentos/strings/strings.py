@@ -178,3 +178,10 @@ altura = 1.72
 mensagem = f"Olá, meu nome é {nome}, Tenho {idade} anos e tenho {altura} de altura."
 print(mensagem)
 
+texto = "Olá mundo"
+texto_upper = texto.upper()
+print(texto_upper)
+
+texto_upper = texto.lower()
+print(texto_upper)
+
